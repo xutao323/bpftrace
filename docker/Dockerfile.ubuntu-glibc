@@ -1,4 +1,4 @@
-ARG BASE="bionic"
+ARG BASE="focal"
 ARG LLVM_VERSION="12"
 FROM quay.io/iovisor/bpftrace-llvm:${BASE}_${LLVM_VERSION}
 

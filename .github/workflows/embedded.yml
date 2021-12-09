@@ -16,7 +16,7 @@ jobs:
           EMBED_USE_LLVM: ON
           RUN_ALL_TESTS: 1
           RUNTIME_TEST_DISABLE: builtin.cgroup,probe.kprobe_offset_fail_size
-          BASE: bionic
+          BASE: focal
           DISTRO: ubuntu-glibc
           VENDOR_GTEST: ON
           BUILD_LIBBPF: ON
